@@ -1,0 +1,29 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+</h:head>
+
+<h:body>
+	<h2>Catalogo general - Forma</h2>
+	<h:form>
+	<p:growl id="growl" showDetail="true" sticky="true" /> 
+		<p:accordionPanel>
+			<p:tab title="Informacion para dar de alta catalogo">
+				<p:panelGrid columns="2">
+					<f:facet name="header">
+						<h:outputText value="Catalogo" />
+					</f:facet>
+					<h:outputText value="Nombre catalogo" />
+					<p:inputText value="#{catalogoControlle.nombreCatalogo}" />
+					<h:outputText value="Descripcion catalogo" />
+					<p:inputText value="#{catalogoControlle.descripcionCatalogo}" />
+				</p:panelGrid>
+				<p:commandButton action="#{catalogoControlle.altaCat}" value="Enviar" />
+			</p:tab>
+		</p:accordionPanel>
+	</h:form>
+</h:body>
+</html>

@@ -1,0 +1,33 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+		 http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	version="3.1">
+
+	<!-- Proyecto con JSF -->
+	<context-param>
+		<param-name>javax.faces.CONFIG_FILES</param-name>
+		<param-value>/WEB-INF/faces-config.xml</param-value>
+	</context-param>
+	<servlet>
+		<servlet-name>FacesServlet</servlet-name>
+		<servlet-class>javax.faces.webapp.FacesServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FacesServlet</servlet-name>
+		<url-pattern>/faces/*</url-pattern><!-- Proyectos anteriores -->
+		<url-pattern>*.xhtml</url-pattern><!-- Mayor vigencia -->
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>HolaMundo</servlet-name>
+		<servlet-class>net.tecgurus.ejemplo.servlets.HolaMundoServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>HolaMundo</servlet-name>
+		<url-pattern>/hola</url-pattern>
+	</servlet-mapping>
+
+</web-app>
