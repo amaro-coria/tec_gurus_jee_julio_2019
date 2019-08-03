@@ -1,0 +1,5 @@
+net/tecgurus/ejemplo/HolaMundo.class
+net/tecgurus/ejemplo/persistencia/CatalogoGeneralDAO.class
+net/tecgurus/ejemplo/HolaMundoLaRevanchaLocal.class
+net/tecgurus/ejemplo/model/Catalogo_General.class
+net/tecgurus/ejemplo/HolaMundoLaRevancha.class
