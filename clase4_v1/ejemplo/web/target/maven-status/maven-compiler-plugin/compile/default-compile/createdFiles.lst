@@ -1,0 +1,4 @@
+net/tecgurus/ejemplo/servlets/HolaMundoServlet.class
+net/tecgurus/ejemplo/controller/CatalogoManagedBean.class
+net/tecgurus/ejemplo/controller/CatalogoControlle.class
+net/tecgurus/ejemplo/controller/GenericMB.class
