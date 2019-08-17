@@ -1,0 +1,13 @@
+net/tecgurus/itemservice/_1/ItemIdElement.class
+net/tecgurus/itemservice/_1/FindStockByIdResponse.class
+net/tecgurus/jee/item_project/ws/rest/ApiApplication.class
+net/tecgurus/itemservice/_1/StockNumber.class
+net/tecgurus/jee/item_project/ws/ItemServicePortTypeImpl.class
+net/tecgurus/jee/item_project/ws/rest/ItemRest.class
+net/tecgurus/itemservice/_1/ObjectFactory.class
+net/tecgurus/itemservice/_1/ItemService.class
+net/tecgurus/jee/item_project/ws/ItemBroker.class
+net/tecgurus/itemservice/_1/FindStockByIdRequest.class
+net/tecgurus/jee/item_project/servlet/PruebaServlet.class
+net/tecgurus/itemservice/_1/ItemServicePortType.class
+net/tecgurus/itemservice/_1/package-info.class

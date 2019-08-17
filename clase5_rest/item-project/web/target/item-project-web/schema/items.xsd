@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://www.tecgurus.net/itemService/1.0"
+	xmlns:tns="http://www.tecgurus.net/itemService/1.0" 
+	elementFormDefault="qualified">
+	
+	<!-- Estructuras de intercambio con el cliente -->
+	
+	<element name="find_stock_by_id_request">
+	  <complexType>
+	    <sequence>
+	      <element name="request" type="tns:item_id_element" ></element>
+	    </sequence>
+	  </complexType>
+	</element>
+	
+	<element name="find_stock_by_id_response">
+	  <complexType>
+	    <sequence>
+	      <element name="response" type="tns:stock_number"></element>
+	    </sequence>
+	  </complexType>
+	</element>
+	
+	<!-- Detalle de los tipos complejos -->
+	
+	<complexType name="stock_number" >
+	  <sequence>
+	    <element name="stock" type="decimal"></element>
+	  </sequence>
+	</complexType>
+	
+	<complexType name="item_id_element">
+	  <sequence>
+	    <element name="id" type="int"></element>
+	  </sequence>
+	</complexType>
+	
+</schema>
