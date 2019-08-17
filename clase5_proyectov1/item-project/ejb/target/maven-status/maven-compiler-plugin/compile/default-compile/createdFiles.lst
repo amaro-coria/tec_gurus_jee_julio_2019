@@ -1,0 +1,6 @@
+net/tecgurus/jee/item_project/dao/impl/CrudServiceBean.class
+net/tecgurus/jee/item_project/dao/QueryParameter.class
+net/tecgurus/jee/item_project/model/Item.class
+net/tecgurus/jee/item_project/dao/CrudService.class
+net/tecgurus/jee/item_project/dao/impl/ItemDetailDAOBean.class
+net/tecgurus/jee/item_project/model/ItemDetail.class
